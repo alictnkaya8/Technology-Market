@@ -1,0 +1,379 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: white;
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.MaviMenuAlani, .MaviMenuAlani a:link,.MaviMenuAlani a:hover,.MaviMenuAlani a:active,.MaviMenuAlani a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: white;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.AnaMenu a:link,.AnaMenu a:hover,.AnaMenu a:active,.AnaMenu a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+.AltMenu a:link,.AltMenu a:hover,.AltMenu a:active,.AltMenu a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.UyelikFormu a:link,.UyelikFormu a:hover,.UyelikFormu a:active,.UyelikFormu a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+.SonucSayfalari a:link,.SonucSayfalari a:hover,.SonucSayfalari a:active,.SonucSayfalari a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.InputAlanlari{
+    width: 95%;
+    height: 30px;
+    padding: 0px 10px;
+}
+.SelectAlanlari{
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+}
+.TextAreaAlanlari{
+    width: 95%;
+    height: 100px;
+    padding: 10px 10px;
+}
+.YesilButton{
+    height: 30px;
+    border: 1px solid #00FF00;
+    background: #009900;
+    padding: 5px 30px;
+    color: white;
+}
+.YesilButton:hover{
+    height: 30px;
+    border: 1px solid #009900;
+    background: #00FF00;
+    padding: 5px 30px;
+    color: black;
+    cursor: pointer;
+}
+.KargoTakipInputu{
+    width: 75%;
+    height: 32px;
+    padding: 0px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.KargoTakipButonu{
+    height: 30px;
+    border: 1px solid #CCCCCC;
+    background: #FF9900;
+    padding: 5px 50px;
+    color: white;
+}
+.KargoTakipButonu:hover{
+    height: 30px;
+    border: 1px solid black;
+    background: #CCCCCC;
+    padding: 5px 50px;
+    color: black;
+    cursor: pointer;
+}
+.QuestionArea{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #CCCCCC;
+    cursor: pointer;
+}
+.QuestionArea:hover{
+    background: #F2F2F2;
+    cursor: pointer;
+}
+.AnswerArea{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.ModifyButonu{
+    height: 30px;
+    border: 1px solid #00FF00;
+    background: #009900;
+    padding: 5px 30px;
+    color: white;
+    text-decoration: none;
+}
+.ModifyButonu:hover{
+    height: 30px;
+    border: 1px solid #009900;
+    background: #00FF00;
+    padding: 5px 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.pagination{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.totalPageInfo{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.totalPageNumber{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.paginationActive{
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 0px 0.5px;
+    padding: 5px 7.5px;
+    background: #F6F6F6;
+    border: 1px solid #DADADA;
+    outline: 0;
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.paginationPassive{
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 0px 0.5px;
+    padding: 5px 7.5px;
+    background: #F6F6F6;
+    border: 1px solid #DADADA;
+    outline: 0;
+    color: #646464;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.paginationPassive a:link,.paginationPassive a:hover,.paginationPassive a:active,.paginationPassive a:visited{
+    color: #646464;
+    text-decoration: none;
+}
+
+.searchArea{
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+    vertical-align: top;
+}
+
+.searchAreaButtonDiv{
+    display: inline-block;
+    float: right;
+    width: 60px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+    text-align: left;
+}
+
+.searchAreaButton{
+    display: block;
+    width: 60px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #646464;
+    background: url(../pictures/search.png);
+    background-repeat: no-repeat;
+    background-position: center left 19px;
+}
+
+.searchAreaButton:hover{
+    cursor: pointer;
+}
+
+.searchAreaInputDiv{
+    display: inline-block;
+    float: right;
+    width: -webkit-calc(100% - 60px);
+    width: -moz-calc(100% - 60px);
+    width: -o-calc(100% - 60px);
+    width: -ms-calc(100% - 60px);
+    width: calc(100% - 60px);
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+    text-align: left;
+}
+
+.searchAreaInput{
+    display: block;
+    float: left;
+    width: -webkit-calc(100% - 47px);
+    width: -moz-calc(100% - 47px);
+    width: -o-calc(100% - 47px);
+    width: -ms-calc(100% - 47px);
+    width: calc(100% - 47px);
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 15px;
+    background: url(../pictures/question-mark.png);
+    background-repeat: no-repeat;
+    background-position: center left 10px;
+    border: 1px solid #646464;
+    outline: 0;
+    text-align: left;
+}
+
+.addToCartButton{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    background: #0088CC;
+    color: white;
+    border: 1px solid #034A6E;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.addToCartButton:hover{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    background: #034A6E;
+    color: white;
+    border: 1px solid #0088CC;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shoppingCartButton{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    background: #0088CC;
+    color: white;
+    border: 1px solid #0088CC;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.shoppingCartButton:hover{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    background: #034A6E;
+    color: white;
+    border: 1px solid #034A6E;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shoppingCartButton a img{
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    padding-left: 60px;
+}
+
+.shoppingCartButton a div{
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
